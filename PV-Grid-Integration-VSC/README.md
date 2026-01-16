@@ -61,3 +61,23 @@ This project implements a robust **grid-following control strategy** for renewab
 ├── PV_Grid_Integration_VSC.slx       # Main Simulink Model File
 ├── PV_Grid_Integration_VSC_code.m    # MATLAB Script for Parameters & Initialization
 └── README.md                         # Project Documentation
+```
+## 🛠 Getting Started
+
+### Running the Simulation
+1.  Clone this repository or download the files.
+2.  Open MATLAB and run the script `PV_Grid_Integration_VSC_code.m` to load system parameters into the workspace.
+3.  Open `PV_Grid_Integration_VSC.slx` in Simulink.
+4.  Run the simulation.
+5.  View the scopes to analyze **Grid Voltage**, **Active Power**, and **DC-Link Voltage**.
+
+## ⚙️ Dependencies
+To run this simulation correctly, you will need:
+* **MATLAB** (R2024b or later recommended)
+* **Simulink**
+* **Simscape Electrical** (Specialized Power Systems)
+* **Control System Toolbox**
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
